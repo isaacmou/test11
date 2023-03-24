@@ -203,7 +203,7 @@
                 .then(response => response.json())
                 .then(data => {
                     for (var i = 0; i<data.items.length; i++){
-                        let textwithcontainspacechi = data.items[i].District_en;
+                        let textwithcontainspacechi = data.items[i].District_tc;
                         let resultchi = textwithcontainspacechi.trim();
                         if(resultchi == areadistrictchi){
                             let vTitle_chwithdistrict = data.items[i].Title_tc;
